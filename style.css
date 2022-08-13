@@ -1,0 +1,268 @@
+
+* {
+    margin: 0;
+    padding: 0;
+
+}
+
+
+
+body {
+    margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 18px;
+    color: #a82736;
+    line-height: 1.6;
+}
+
+#showcase {
+    background-image: url("https://img.freepik.com/free-vector/white-background-with-blue-tech-hexagon_1017-19366.jpg?w=2000");
+    background-size: cover;
+    background-position: center;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    padding: 100px;
+}
+
+#showcase h1 {
+    font-size: 50px;
+    line-height: 1.5;
+}
+
+#showcase p {
+    font-size: 20px;
+}
+
+#section-a {
+    padding: 20px;
+    background: #926239;
+    color: #f0f8ff;
+    text-align: center;
+}
+
+#section-b {
+    padding: 20px;
+    background: #f0f8ff;
+    text-align: center;
+}
+
+#section-c {
+    display: flex;
+}
+
+#section-c div {
+    padding: 20px;
+}
+#section-c .box-1,
+#section-c .box-3{
+    background: #926239;
+    color: #f0f8ff;
+}
+
+#section-c .box-2{
+    background: #f7b079;
+}
+
+.Marvel-Intro-video{
+    width: 50%;
+    margin-right: 2%;
+    float: left;
+}
+
+.para {
+    width: 100%;
+
+}
+
+img {
+    width: 100%;
+}
+
+#super {
+    text-align: center;
+    color: #38035e;
+    
+    
+}
+
+
+
+#posts {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+
+#post1,#post2,#post3 {
+    width: 30%;
+    margin: 5px;
+    border: 1px solid black;
+    border-radius: 10px;
+    padding: 12px;
+    display: block;
+}
+
+#pho {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#pho1,#pho2,#pho3 {
+    width: 30%;
+    margin: 5px;
+    border: 1px solid black;
+    border-radius: 10px;
+    padding: 12px;
+    display: block;
+
+}
+
+#bro {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#bro1,#bro2,#bro3 {
+    width: 30%;
+    margin: 5px;
+    border: 1px solid black;
+    border-radius: 10px;
+    padding: 12px;
+}
+
+#frd {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#frd1,#frd2,#frd3 {
+    width: 30%;
+    margin: 5px;
+    border: 1px solid black;
+    border-radius: 10px;
+    padding: 12px;
+}
+
+
+
+ 
+i {
+    font-size: 20px;
+    color: #0f0f0f;
+    border: 1px solid black;
+    padding: 5px;
+    border-radius: 5px;
+    margin: 10px;
+    cursor: pointer;
+}
+
+footer{
+    background: linear-gradient(90deg, rgba(143,5,31,0.8690826672465861) 6%, rgba(51,61,108,0.7514356084230567) 99%, rgba(93,106,148,1) 100%, rgba(197,3,5,1) 100%, rgba(243,3,3,0.6253851882549895) 100%, rgba(0,212,255,1) 100%, rgba(226,3,60,1) 100%);
+    color: rgb(36, 36, 2);
+}
+
+.footer_info {
+    width: 90%;
+    margin: 0 auto;
+    display: flex;
+    padding: 50px 0;
+}
+
+.footer_info .footer_width{
+    padding: 0 15px;
+}
+
+.footer_info h2 {
+    margin-bottom: 20px;
+}
+
+.about , .contact {
+    width: 40%;
+}
+
+.link {
+    width: 20%;
+}
+
+.social-media{
+    margin-top: 30px;
+}
+
+.social-media ul {
+    display: flex;
+}
+
+.social-media ul li a {
+    display: inline-block;
+    margin-right: 50px;
+    width: 50px;
+    height: 50px;
+    padding-top: 12px;
+    background-color: transparent;
+    border: 1px solid #f0f8ff;
+    text-align: center;
+}
+
+.social-media ul li a:hover {
+    background-color: #fff;
+    color: #000;
+}
+
+.link ul li a {
+    display: block;
+    margin-bottom: 15px;
+    font-size: 18px;
+}
+
+.link ul li a:hover {
+    color: #000;
+}
+
+.contact ul li {
+    display: flex;
+    align-items: center;
+    margin-bottom: 15px;
+}
+
+.contact ul li span {
+    margin-right: 15px;
+} 
+
+.copy-right {
+    padding: 15px 0;
+    text-align: center;
+    background-color: #926239; 
+}
+
+@media screen and (max-width:992px) {
+
+    .about , .contact {
+        width: 35%;
+    }
+
+    .link {
+        width: 30%;
+    }
+}
+
+@media screen and (max-width:767px) {
+
+    .about , .contact , .link {
+        width: 100%;
+        margin-bottom: 30px;
+    }
+
+    .footer_info {
+        flex-direction: column;
+    }
+}
+
+    
